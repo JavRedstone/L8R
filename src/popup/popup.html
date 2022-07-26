@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "preconnect" href = "https://fonts.googleapis.com">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+        <link href = "https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+        <link rel = "stylesheet" href = "./popup.css">
+    </head>
+    <body>
+        <img class = "icon" src = "../assets/icons/l8r_icon.svg">
+        <b>
+            <span class = "title">L8R</span>
+        </b>
+        <span class = "description">Clean and simple notes interface to save for l8r (later)</span>
+        <fieldset class = "notes-fieldset">
+            <legend class = "notes-legend"></legend>
+            <textarea class = "notes" placeholder = "Start by typing some notes..."></textarea>
+        </fieldset>
+        <fieldset class = "previous-notes-fieldset">
+            <legend>Archive</legend>
+            <b>If you edit your current notes and you want to check the archive (view, download, or delete), click here to update the archive. Don't worry, your notes will be always updated.</b>
+            <table class = "previous-notes">
+                <tr>
+                    <th>Date</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+    <script src = "./popup.js"></script>
+</html>

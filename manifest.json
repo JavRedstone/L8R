@@ -1,0 +1,22 @@
+{
+    "name": "L8R",
+    "description": "Clean and simple notes interface to save for l8r (later)",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "permissions": [
+      "storage",
+      "contextMenus"
+    ],
+    "background": {
+      "service_worker": "./src/background/background.js"
+    },
+    "action": {
+      "default_popup": "./src/popup/popup.html",
+      "default_icon": {
+        "128": "./src/assets/icons/l8r_icon.png"
+      }
+    },
+    "icons": {
+      "128": "./src/assets/icons/l8r_icon.png"
+    }
+  }

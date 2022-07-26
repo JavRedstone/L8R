@@ -1,0 +1,86 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+
+    background-color: #ccc;
+}
+
+.material-symbols-outlined {
+    font-size: 15px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+}
+
+.icon {
+    width: 25px;
+}
+
+.title {
+    position: absolute;
+    margin-left: 10px;
+
+    font-size: 20px;
+    color: #4285f4;
+}
+
+.description {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.notes-fieldset {
+    margin-top: 15px;
+
+    border: 1px solid #ccc;
+}
+
+.notes-legend {
+    font-size: 15px;
+}
+
+.notes {
+    width: 300px;
+    height: 300px;
+
+    border: none;
+    outline: none;
+
+    resize: none;
+}
+
+.previous-notes-fieldset {
+    margin-top: 10px;
+
+    border: 1px solid #ccc;
+}
+
+.previous-notes {
+    width: 100%;
+
+    margin-top: 10px;
+
+    text-align: left;
+}
+
+.previous-notes-download {
+    color: #000;
+    text-decoration: unset;
+}
+
+.previous-notes-delete {
+    cursor: pointer;
+}
