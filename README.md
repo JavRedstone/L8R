@@ -14,7 +14,7 @@ Clean and simple notes interface to save for l8r (later)
 
 1. Download the files from this Github repository
 2. Unzip the files
-3. Open the [Chrome Extensions Manager](chrome://extensions)
+3. Open the [Chrome Extensions Manager](https://chrome://extensions)
 4. Enable **Developer mode** at the top right corner
 5. Click **Load unpacked** at the top left corner
 6. Click on the folder that encases all the files downloaded
