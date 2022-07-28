@@ -1,7 +1,7 @@
 {
     "name": "L8R",
     "description": "Clean and simple notes interface to save for l8r (later)",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "manifest_version": 3,
     "permissions": [
       "storage",
