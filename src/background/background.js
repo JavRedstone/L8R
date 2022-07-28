@@ -5,10 +5,6 @@ const DATE = formatDate(new Date());
 
 // CHROME LISTENERS
 
-chrome.runtime.onInstalled.addListener(function() {
-    chrome.storage.local.clear();
-});
-
 chrome.contextMenus.onClicked.addListener(
     async function(info, tab) {
         if (info.menuItemId != CONTEXT_MENU_ID) {

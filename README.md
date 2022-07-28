@@ -1,4 +1,4 @@
-# L8R (Chrome Extension) `v0.1.0`
+# L8R (Chrome Extension) `v0.2.0`
 
 Clean and simple notes interface to save for l8r (later)
 
